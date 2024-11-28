@@ -426,10 +426,12 @@ h1 {
 }
 
 .down-arrow {
-    width: 50px;
-    height: 45px;
-    margin-top: 50px;
-    width: 50px; /* Adjust as needed */
+    width: 75px;
+    height: 75px;
+    margin-top: 375px;
+    padding: 10px 25px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, .75);
     animation: moveUpDown 2s infinite ease-in-out;
 }
 
@@ -530,7 +532,7 @@ h1 {
     border-radius: 25px;
     position: absolute;
     bottom: 0;
-    box-shadow: 0 0 250px 150px #000000bc;
+    box-shadow: 0 0 250px 150px #000000;
 }
 
 .close-icon-calc {
