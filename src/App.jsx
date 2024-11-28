@@ -9,9 +9,7 @@ function App() {
     <div>
       <Navbar />
       <WelcomeBox />
-      <ScrollText 
-      text="About Code Tailors"
-      />
+      <ScrollText />
     </div>
   );
 }
