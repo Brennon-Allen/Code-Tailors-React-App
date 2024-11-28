@@ -215,7 +215,7 @@ h1 {
 
 .menu-expanded {
     position: absolute;
-    top: 250px;
+    top: 50px;
     padding: 25px 0;
     width: 95%;
     display: flex;
