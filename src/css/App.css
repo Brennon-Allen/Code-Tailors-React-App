@@ -429,7 +429,7 @@ h1 {
 .down-arrow {
     width: 75px;
     height: 75px;
-    margin-top: 375px;
+    margin-top: 300px;
     animation: moveUpDown 2s infinite ease-in-out;
 }
 
