@@ -4,6 +4,7 @@ body {
     background-color: black;
     background-image: url("../assets/line copy 4.gif");
     background-repeat: repeat;
+    padding-right: 5%;
 }
 
 h1 {
@@ -11,7 +12,7 @@ h1 {
 }
 
 .flex-center-column {
-    display: flexbox;
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -195,6 +196,12 @@ h1 {
     .logo-box {
      display: flex;
      justify-content: left;
+    }
+}
+
+@media (min-width: 550px) {
+    .calculate-button {
+        margin-right: 10px;
     }
 }
 

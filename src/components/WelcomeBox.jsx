@@ -1,4 +1,3 @@
-import logo from "../assets/logo.png";
 import { useState } from "react";
 
 export default function WelcomeBox() {
@@ -20,7 +19,7 @@ export default function WelcomeBox() {
         <h1 className="welcome-title">Custom Website Development Services</h1>
         <br></br>
         <div className="flex-center-column button-box">
-          <button onClick={openCalc}>Calculate Estimate</button>
+          <button onClick={openCalc} className="calculate-button">Calculate Estimate</button>
           <button>Schedule a Free Consultation</button>
         </div>
         <h2 className="landing-subtitle">
