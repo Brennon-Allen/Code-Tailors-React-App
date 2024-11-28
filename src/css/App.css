@@ -429,9 +429,6 @@ h1 {
     width: 75px;
     height: 75px;
     margin-top: 375px;
-    padding: 10px 25px;
-    border-radius: 50%;
-    background-color: rgba(0, 0, 0, .75);
     animation: moveUpDown 2s infinite ease-in-out;
 }
 
