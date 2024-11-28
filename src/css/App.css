@@ -1,7 +1,9 @@
 body {
     font-family: "Rubik", Geneva, Tahoma, sans-serif, Helvetica, sans-serif;
-    background-size: 100%;
     background-color: black;
+    background-size: contain;
+    background-position-y: 50px;
+    background-position: auto;
     background-image: url("../assets/line copy 4.gif");
     background-repeat: repeat;
 }
