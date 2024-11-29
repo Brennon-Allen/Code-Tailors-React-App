@@ -6,7 +6,7 @@ import ScrollText from './components/ScrollText.jsx';
 function App() {
 
   return (
-    <div>
+    <div className="flex-center-column">
       <Navbar />
       <WelcomeBox />
       <ScrollText />

@@ -11,12 +11,11 @@ export default function Navbar() {
 
   return (
     <>
-      <div className="move-to-front navbar-container flex-center-row">
+      <div className="move-to-front flex-center-row navbar-container">
         <div className="logo-box flex-left-row">
           <img src={Logo} className="logo" />
           <h1 className="logo-text">Code Tailors</h1>
         </div>
-        <button className="menu-toggler" onClick={toggleStatus}></button>
 
         {status ? (
           <div className="menu-expanded flex-center-column">
