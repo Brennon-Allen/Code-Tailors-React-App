@@ -147,25 +147,14 @@ h1 {
     border: none;
     background-size: 100%;
     position: relative;
-    margin-top: 7px;
     right: 25px;
     width: 55px;
     height: 55px;
 }
 
 .menu-toggler:hover {
-    background-image: url("../assets/white-shaded-menu-icon.png");
-    background-color: transparent;
-    border: none;
-    background-size: cover;
-    position: fixed;
     cursor: pointer;
-    right: 25px;
-    top: 25px;
-    width: 50px;
-    height: 50px;
-    color: rgb(0, 32, 86);
-    padding: 10px;
+    background-image: url("../assets/green-shaded-menu-icon.png");
 }
 
 .logo {
