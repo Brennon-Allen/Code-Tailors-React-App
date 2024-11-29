@@ -20,7 +20,7 @@ export default function WelcomeBox() {
         <br></br>
         <div className="flex-center-column button-box">
           <button onClick={openCalc} className="calculate-button">Calculate Estimate</button>
-          <button>Schedule a Free Consultation</button>
+          <button className="button-fix">Schedule a Free Consultation</button>
         </div>
         <h2 className="landing-subtitle">
           Use our <span className="bolder">Cost Estimater Tool</span> to get a
