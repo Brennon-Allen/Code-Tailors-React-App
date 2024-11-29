@@ -130,7 +130,7 @@ h1 {
 
 .navbar-container {
     /* background: linear-gradient(to right, rgb(7, 20, 48), rgb(0, 138, 124, .75)); */
-    background-color: rgb(17, 17, 17);
+    /* background-color: rgb(17, 17, 17); */
     /* border-bottom: 3px solid rgb(37, 103, 122); */
     position: fixed;
     width: 90%;
@@ -138,7 +138,7 @@ h1 {
     border-radius: 50px;
     height: 90px;
     top: 20px;
-    box-shadow: 0 0 0px 2px rgb(0, 242, 255);
+    /* box-shadow: 0 0 0px 2px rgb(0, 242, 255); */
 }
 
 .menu-toggler {
