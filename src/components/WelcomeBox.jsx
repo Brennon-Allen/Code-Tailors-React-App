@@ -16,11 +16,11 @@ export default function WelcomeBox() {
     )}
       <div className="welcome-box">
         <h1 className="landing-subtitle">We Specialize In</h1>
-        <h1 className="welcome-title">Custom Website Development Services</h1>
+        <h1 className="welcome-title">CUSTOM WEBSITE DEVELOPMENT SERVICES</h1>
         <br></br>
         <div className="flex-center-column button-box">
           <button onClick={openCalc} className="calculate-button">Calculate Estimate</button>
-          <button className="button-fix">Schedule a Free Consultation</button>
+          <button className="button-fix">Schedule Consultation</button>
         </div>
         <h2 className="landing-subtitle">
           Use our <span className="bolder">Cost Estimater Tool</span> to get a
