@@ -334,13 +334,13 @@ h1 {
 
 .button-box button {
     margin-bottom: 10px;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 255, 183);
     width: fit-content;
-    min-height: 45px;
+    min-height: 25px;
     max-height: fit-content;
     max-width: fit-content;    
     font-weight: 900;
-    font-size: .9em;
+    font-size: 1em;
     background-color: rgb(3, 89, 84);
     border: 1px solid rgb(0, 255, 251);
     padding: 7px;

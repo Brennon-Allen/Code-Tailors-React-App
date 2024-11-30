@@ -24,7 +24,7 @@ export default function WelcomeBox() {
           <span className="bolder">Schedule a Free Consultation</span> with one
           of our developers.{" "}
         </h2>
-        <div className="flex-center-row button-box">
+        <div className="flex-center-column button-box">
           <button onClick={openCalc} className="calculate-button">Calculate Estimate</button>
           <button className="button-fix">Schedule Consultation</button>
         </div>
