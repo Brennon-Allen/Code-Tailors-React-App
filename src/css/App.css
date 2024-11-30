@@ -218,16 +218,17 @@ h1 {
 
 .menu-expanded {
     position: absolute;
-    top: 50px;
-    padding: 25px 0;
-    width: 95%;
+    top: 15px;
+    right: 25px;
+    padding-top: 15px;
+    width: 225px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    background-color: rgb(0, 0, 0);
+    align-items: last baseline;
+    background-color: rgb(0, 0, 0, .9);
     box-shadow: 0 0 250px 150px #000000bc;
-    border: 2px solid rgba(0, 255, 251, 0.967);
+    border: 2px solid rgba(0, 255, 225, 0.967);
     border-radius: 25px;
 
 
@@ -259,27 +260,27 @@ h1 {
 }
 
 .menu-button {
-    margin-bottom: 10px;
-    left: 10px;
-    font-size: 1.5em;
-    padding: 6px 17px;
+    margin-bottom: 15px;
+    left: -15px;
+    font-size: 1em;
+    padding: 3px 11px;
     font-weight: 500;
     right: 25px;
     border: none;
-    border-radius: 10px;
+    border-radius: 15px;
     background-color: transparent;
     cursor: pointer;
     font-weight: 900;
-    border: 1px solid rgba(0, 255, 251, 0.967);
-    background-color: rgb(9, 55, 54);
-    color: rgb(255, 255, 255);
+    border: 1px solid rgba(0, 255, 187, 0.967);
+    background-color: rgb(0, 23, 44);
+    color: #b5fff6;
 }
 
 .menu-button:hover {
     cursor: pointer;
-    border: 1px solid rgb(0, 255, 255);
-    background-color: rgb(0, 119, 130);
-    color: rgb(0, 255, 221);
+    border: 1px solid rgb(0, 255, 183);
+    background-color: rgb(0, 134, 111);
+    color: rgb(0, 255, 179);
 }
 
 .title {
@@ -288,15 +289,18 @@ h1 {
 }
 
 .close-icon {
+    top: 5px; 
+    position: absolute;
+    right: 15px;
     margin-top: 10px;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
 }
 
 .close-icon:hover {
     margin-top: 10px;
-    width: 50px;
-    height: 50px;
+    width: 42px;
+    height: 42px;
     cursor: pointer;
 }
 
@@ -334,15 +338,15 @@ h1 {
 
 .button-box button {
     margin-bottom: 10px;
-    color: rgb(0, 255, 183);
+    color: rgb(167, 255, 229);
     width: fit-content;
     min-height: 25px;
     max-height: fit-content;
     max-width: fit-content;    
     font-weight: 900;
     font-size: 1em;
-    background-color: rgb(3, 89, 84);
-    border: 1px solid rgb(0, 255, 251);
+    background-color: rgb(9, 36, 81);
+    border: 1px solid rgb(0, 255, 195);
     padding: 7px;
     border-radius: 5px;
     text-wrap: balance;
@@ -355,15 +359,15 @@ h1 {
 
 .button-box button:hover {
     margin-bottom: 10px;
-    color: rgb(0, 255, 208);
+    color: rgb(167, 255, 229);
     width: fit-content;
-    min-height: 45px;
+    min-height: 25px;
     max-height: fit-content;
     max-width: fit-content;    
     font-weight: 900;
-    font-size: .9em;
-    background-color: rgb(3, 89, 84);
-    border: 1px solid rgb(0, 255, 251);
+    font-size: 1em;
+    background-color: rgb(9, 36, 81);
+    border: 1px solid rgb(0, 255, 195);
     padding: 7px;
     border-radius: 5px;
     text-wrap: balance;
