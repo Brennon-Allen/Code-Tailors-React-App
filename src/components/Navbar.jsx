@@ -19,7 +19,6 @@ export default function Navbar() {
 
         {status ? (
           <div className="menu-expanded flex-center-column">
-            <h1 className="title">Navigate</h1>
             <button className="menu-button">Home</button>
             <button className="menu-button">About</button>
             <button className="menu-button">Services</button>
