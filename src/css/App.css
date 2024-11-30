@@ -533,13 +533,12 @@ h1 {
 }
 
 .landing-subtitle {
-    padding-top: 5px;
     color: rgb(222, 222, 222);
-    font-weight: 330;
+    font-weight: 300;
     font-size: 1em;
     margin: 20px;
-    text-wrap: balance;
-    margin-bottom: 10px;
+    text-wrap: wrap;
+    margin-bottom: 5px;
 }
 
 .bolder {
