@@ -26,7 +26,7 @@ export default function WelcomeBox() {
         </h2>
         <div className="flex-center-column button-box">
           <button onClick={openCalc} className="calculate-button">Calculate Estimate</button>
-          <button className="button-fix">Schedule Consultation</button>
+          <button className="schedule-button">Schedule Consultation</button>
         </div>
       </div>
     </>
