@@ -1,4 +1,4 @@
-import Logo from "../assets/Logo-white-stroke.png";
+import Logo from "../assets/logo-white-stroke.png";
 import { useState } from "react";
 import closeIcon from "../assets/close-icon.png";
 
