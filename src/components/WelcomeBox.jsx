@@ -22,13 +22,13 @@ export default function WelcomeBox() {
           <button onClick={openCalc} className="calculate-button">Calculate Estimate</button>
           <button className="button-fix">Schedule Consultation</button>
         </div>
-        <h2 className="landing-subtitle">
+      </div>
+      <h2 className="landing-subtitle desc-text">
           Use our <span className="bolder">Cost Estimater Tool</span> to get a
           quote instantly, or{" "}
           <span className="bolder">Schedule a Free Consultation</span> with one
           of our developers.{" "}
         </h2>
-      </div>
     </>
   );
 }
