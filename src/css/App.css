@@ -2,7 +2,6 @@ body {
     font-family: "Rubik", Geneva, Tahoma, sans-serif, Helvetica, sans-serif;
     background-color: black;
     background-size: contain;
-    background-position-y: 50px;
     background-position: auto;
     background-image: url("../assets/line copy 4.gif");
     background-repeat: repeat;
@@ -142,7 +141,7 @@ h1 {
 }
 
 .menu-toggler {
-    background-image: url("../assets/white-shaded-menu-icon.png");
+    background-image: url("../assets/cpu.png");
     background-color: transparent;
     border: none;
     background-size: 100%;
