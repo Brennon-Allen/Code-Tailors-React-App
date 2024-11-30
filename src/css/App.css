@@ -328,30 +328,35 @@ h1 {
     font-size: 1.3em;
 }
 
+.button-box {
+    bottom: 10px;
+}
+
 .button-box button {
     margin-bottom: 10px;
-    color: rgb(158, 255, 237);
-    width: 75%;
+    color: rgb(255, 255, 255);
+    width: fit-content;
+    min-height: 45px;
+    max-height: fit-content;
     max-width: fit-content;    
-    font-weight: 800;
-    font-size: 1em;
-    background-color: rgb(8, 42, 55);
-    border: 1px solid rgb(127, 255, 238);
-    padding: 10px;
-    border-radius: 20px;
+    font-weight: 900;
+    font-size: .9em;
+    background-color: rgb(3, 89, 84);
+    border: 1px solid rgb(0, 255, 251);
+    padding: 7px;
+    border-radius: 5px;
     text-wrap: balance;
+    margin: 5px;
 }
 
 .desc-text {
-    position: absolute;
-    top: 490px;
-    text-wrap: balance;
+    top: -25px;
 }
 
 .button-box button:hover {
     color: rgb(255, 255, 255);
+    font-size: 1em;
     font-weight: 800;
-    font-size: 1.3em;
     background-color: rgb(8, 42, 55);
     border: 1px solid rgb(127, 255, 238);
     cursor: pointer;
@@ -524,8 +529,9 @@ h1 {
     padding-top: 5px;
     color: rgb(222, 222, 222);
     font-weight: 330;
-    font-size: 1.2em;
+    font-size: 1em;
     margin: 20px;
+    text-wrap: balance;
     margin-bottom: 10px;
 }
 
