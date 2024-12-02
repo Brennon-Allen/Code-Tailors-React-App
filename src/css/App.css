@@ -219,7 +219,8 @@ h1 {
     position: absolute;
     top: 15px;
     right: 25px;
-    padding-top: 80px;
+    padding-top: 15px;
+    padding-left: 30px;
     width: 225px;
     display: flex;
     flex-direction: column;
