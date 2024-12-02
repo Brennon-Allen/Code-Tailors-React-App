@@ -221,7 +221,7 @@ h1 {
     right: 25px;
     padding-top: 15px;
     padding-left: 30px;
-    width: 225px;
+    width: 195px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -263,7 +263,7 @@ h1 {
     margin-bottom: 15px;
     left: -15px;
     font-size: 1em;
-    padding: 3px 11px;
+    padding:7px 11px;
     font-weight: 500;
     right: 25px;
     border: none;
