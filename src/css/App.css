@@ -219,12 +219,12 @@ h1 {
     position: absolute;
     top: 15px;
     right: 25px;
-    padding-top: 15px;
+    padding-top: 80px;
     width: 225px;
     display: flex;
     flex-direction: column;
-    justify-content: left;
-    align-items: last baseline;
+    justify-content: center;
+    align-items: first baseline;
     background-color: rgb(0, 0, 0, .9);
     box-shadow: 0 0 250px 150px #000000bc;
     border: 2px solid rgba(0, 255, 225, 0.967);
