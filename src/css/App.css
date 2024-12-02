@@ -223,7 +223,7 @@ h1 {
     width: 225px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: left;
     align-items: last baseline;
     background-color: rgb(0, 0, 0, .9);
     box-shadow: 0 0 250px 150px #000000bc;
